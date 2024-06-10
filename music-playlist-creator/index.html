@@ -1,27 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Music Playlist Explorer</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <!-- Your header content here -->
+      <h1>Music Playlist Explorer</h1>
     </header>
 
-    <main> 
-        <!-- Your main content here -->
+    <main>
+      <section class="playlist-cards">
+        <div>
+          <img src="assets/img/song.png" />
+          <h2>Playlist Title</h2>
+          <p>Creator Name</p>
+          <p>Like-count</p>
+        </div>
+        <div>
+          <img src="assets/img/song.png" />
+          <h2>Playlist Title</h2>
+          <p>Creator Name</p>
+          <p>Like-count</p>
+        </div>
+        <div>
+          <img src="assets/img/song.png" />
+          <h2>Playlist Title</h2>
+          <p>Creator Name</p>
+          <p>Like-count</p>
+        </div>
+        <div>
+          <img src="assets/img/song.png" />
+          <h2>Playlist Title</h2>
+          <p>Creator Name</p>
+          <p>Like-count</p>
+        </div>
+    </section>
     </main>
+    <!-- Modal Structure -->
+    <div class="modal-overlay">
+      <div id="festivalModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h1 id="festivalName"></h1>
+          <img id="festivalImage" src="" alt="Festival Image" />
+          <p id="festivalDates"></p>
+          <p id="festivalLocation"></p>
+          <div id="artistLineup"></div>
+        </div>
+      </div>
+      <div onclick="openModal({name: 'Summer Beats Festival', imageUrl: 'path/to/festival.jpg', dates: 'July 15-17', location: 'Downtown Park', lineup: ['Artist A', 'Artist B']})">
+        Click here for festival details!
+    </div>    
+     <div class ="modal-content">
+        content
+     </div>
+    </div>
 
     <footer>
-        <!-- Your footer content here -->
+      <p>Author: Ahmed Hamouda</p>
+      <p><a href="mailto:Ahmedsmusic@google.com">Ahmedsmusic@google.com</a></p>
     </footer>
+
     <script src="data/data.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
