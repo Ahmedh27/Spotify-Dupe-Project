@@ -16,52 +16,100 @@
 
     <main>
       <section class="playlist-cards">
-        <div>
-          <img src="assets/img/song.png" />
-          <h2>Playlist Title</h2>
-          <p>Creator Name</p>
-          <p>Like-count</p>
+        <div
+          onclick="openModal({ 
+          playlist_name: 'Late Night Drive', 
+          playlist_art: 'https://picsum.photos/id/36/200', 
+          playlist_creator: 'Melody Maven', 
+          likeCount: 0, 
+          songs: [
+              { title: 'Nightcall', artist: 'Kavinsky', album: 'Nightcall', cover_art: 'https://picsum.photos/id/43/200', duration: '4:18' }, 
+              { title: 'Drive', artist: 'The Cars', album: 'Heartbeat City', cover_art: 'https://picsum.photos/id/45/200', duration: '3:55' }
+          ]})"
+        >
+          <img src="https://picsum.photos/id/36/200" />
+          <h3>Late Night Drive</h3>
+          <p>Melody Maven</p>
+          <p>Likes: 0</p>
         </div>
-        <div>
-          <img src="assets/img/song.png" />
-          <h2>Playlist Title</h2>
-          <p>Creator Name</p>
-          <p>Like-count</p>
+        <div
+        onclick="openModal({ 
+        playlist_name: 'Late Night Drive', 
+        playlist_art: 'https://picsum.photos/id/36/200', 
+        playlist_creator: 'Melody Maven', 
+        likeCount: 0, 
+        songs: [
+            { title: 'Nightcall', artist: 'Kavinsky', album: 'Nightcall', cover_art: 'https://picsum.photos/id/43/200', duration: '4:18' }, 
+            { title: 'Drive', artist: 'The Cars', album: 'Heartbeat City', cover_art: 'https://picsum.photos/id/45/200', duration: '3:55' }
+        ]})"
+      >
+        <img src="https://picsum.photos/id/36/200" />
+        <h3>Late Night Drive</h3>
+        <p>Melody Maven</p>
+        <p>Likes: 0</p>
+      </div>
+      <div
+      onclick="openModal({ 
+      playlist_name: 'Late Night Drive', 
+      playlist_art: 'https://picsum.photos/id/36/200', 
+      playlist_creator: 'Melody Maven', 
+      likeCount: 0, 
+      songs: [
+          { title: 'Nightcall', artist: 'Kavinsky', album: 'Nightcall', cover_art: 'https://picsum.photos/id/43/200', duration: '4:18' }, 
+          { title: 'Drive', artist: 'The Cars', album: 'Heartbeat City', cover_art: 'https://picsum.photos/id/45/200', duration: '3:55' }
+      ]})"
+    >
+      <img src="https://picsum.photos/id/36/200" />
+      <h3>Late Night Drive</h3>
+      <p>Melody Maven</p>
+      <p>Likes: 0</p>
+    </div>
+    <div
+          onclick="openModal({ 
+          playlist_name: 'Late Night Drive', 
+          playlist_art: 'https://picsum.photos/id/36/200', 
+          playlist_creator: 'Melody Maven', 
+          likeCount: 0, 
+          songs: [
+              { title: 'Nightcall', artist: 'Kavinsky', album: 'Nightcall', cover_art: 'https://picsum.photos/id/43/200', duration: '4:18' }, 
+              { title: 'Drive', artist: 'The Cars', album: 'Heartbeat City', cover_art: 'https://picsum.photos/id/45/200', duration: '3:55' }
+          ]})"
+        >
+          <img src="https://picsum.photos/id/36/200" />
+          <h3>Late Night Drive</h3>
+          <p>Melody Maven</p>
+          <p>Likes: 0</p>
         </div>
-        <div>
-          <img src="assets/img/song.png" />
-          <h2>Playlist Title</h2>
-          <p>Creator Name</p>
-          <p>Like-count</p>
-        </div>
-        <div>
-          <img src="assets/img/song.png" />
-          <h2>Playlist Title</h2>
-          <p>Creator Name</p>
-          <p>Like-count</p>
-        </div>
-    </section>
+      </section>
     </main>
     <!-- Modal Structure -->
-    <div class="modal-overlay">
-      <div id="festivalModal" class="modal">
-        <div class="modal-content">
-          <span class="close">&times;</span>
-          <h1 id="festivalName"></h1>
-          <img id="festivalImage" src="" alt="Festival Image" />
-          <p id="festivalDates"></p>
-          <p id="festivalLocation"></p>
-          <div id="artistLineup"></div>
-        </div>
+    <div id="playlistModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1 id="playlist_name">Playlist Title</h1>
+        <img
+          id="playlist_art"
+          src="assets/img/playlist.png"
+          alt="Playlist Image"
+        />
+        <p id="playlist_creator">Creator: Name</p>
+        <p id="like_count">Likes: 0</p>
+        <ul id="songs_list">
+          <li>
+            <img src="assets/img/song.png" alt="Song cover art" />
+            <div>
+              <strong>Song Title</strong> by Artist
+              <p>Album: Album Name</p>
+              <p>Duration: 3:45</p>
+            </div>
+          </li>
+        </ul>
       </div>
-      <div onclick="openModal({name: 'Summer Beats Festival', imageUrl: 'path/to/festival.jpg', dates: 'July 15-17', location: 'Downtown Park', lineup: ['Artist A', 'Artist B']})">
-        Click here for festival details!
-    </div>    
-     <div class ="modal-content">
-        content
-     </div>
     </div>
 
+
+
+    
     <footer>
       <p>Author: Ahmed Hamouda</p>
       <p><a href="mailto:Ahmedsmusic@google.com">Ahmedsmusic@google.com</a></p>
