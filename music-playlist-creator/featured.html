@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
     <header>
         <h1 class="banner">Music Playlist Explorer</h1>
     </header>
@@ -22,15 +21,28 @@
     </nav>
 
     <main>
-        <section id="playlist-cards" class="playlist-cards"></section>
+        <section class="random_card"> 
+            <div id="random_playlist">     
+                <h2 id="playlist_name">Playlist Title</h2>
+                <img id="playlist_art" src="assets/img/playlist.png" alt="Playlist Image" />
+                <p id="playlist_creator">Creator: Name</p>
+                <div id="shuffle-button-container">
+                    <button id="shuffle-button">Shuffle Playlist</button>
+                </div>
+            </div>              
+            <div class="adjacentsongs">
+                <ul id="songs_list">
+                </ul>
+            </div>
+        </section>
     </main>
 
-    <footer>
+    <footer id="ffooter">
         <p>Author: Ahmed Hamouda</p>
         <p><a href="mailto:Ahmedsmusic@google.com">Ahmedsmusic@google.com</a></p>
     </footer>
 
     <script src="data/data.js"></script>
-    <script src="script.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>

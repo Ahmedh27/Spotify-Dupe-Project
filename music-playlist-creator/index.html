@@ -16,11 +16,14 @@
         <div class="nav-container">
             <a href="index.html">Home</a>
             <a href="featured.html">Featured</a>
+            <div class="search-container">
+                <input type="text" placeholder="Search.." id="searchInput">
+                <button type="button" id="searchButton">Search</button>
+            </div>
         </div>
     </nav>
-        <section id="playlist-cards" class="playlist-cards"></section>
-    </main>
-
+    
+    <section id="playlist-cards" class="playlist-cards"></section>
 
     <!-- Modal Structure   -->
     <div id="playlistModal" class="modal">
@@ -29,9 +32,9 @@
             <h2 id="playlist_name">Playlist Title</h2>
             <img id="playlist_art" src="assets/img/playlist.png" alt="Playlist Image" />
             <p id="playlist_creator">Creator: Name</p>
-            <p id="like_count">Likes: 0</p>
+            <p class="likefeature" id="like_count">Likes: 0</p>
             <div id="shuffle-button-container">
-            <button id="shuffle-button">Shuffle Play</button>
+                <button id="shuffle-button">Shuffle Play</button>
             </div>            
             <ul id="songs_list"></ul>
         </div>
