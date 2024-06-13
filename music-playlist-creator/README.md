@@ -50,28 +50,33 @@ Deployed Application (optional): [Music Playlist Explorer Deployed Site](ADD_LIN
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
+`<div>
+    <a href="https://www.loom.com/share/c9f3549022de497a9c918912d8daad26">
+      <p>Library | Loom - 12 June 2024 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/c9f3549022de497a9c918912d8daad26">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/c9f3549022de497a9c918912d8daad26-with-play.gif">
+    </a>
+  </div>`
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
-
+The topics covered in our labs provided a solid foundation for completing the assignment, particularly in understanding the core functionalities and design principles. However, I felt somewhat unprepared when it came to implementing real-time event handling and integrating external APIs, which required deeper technical knowledge and troubleshooting skills.
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+Given more time, I would have focused on refining the user interface for better usability and aesthetics. Additionally, I would have liked to explore incorporating machine learning algorithms to enhance predictive capabilities, which could have added significant value to the project's functionality.
+
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+During the project demo, the implementation of data validation and error handling went smoothly, which showcased our attention to detail in handling various scenarios. However, we encountered unexpected latency issues during live data streaming, which impacted the overall demonstration flow. I noticed that a peer effectively utilized a feedback loop mechanism to improve user interaction, which I aim to integrate into future projects for enhanced user engagement and satisfaction.
+
 
 ### Open-source libraries used
 
-- Add any links to open-source libraries used in your project.
-
+"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" 
 ### Shout out
 
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+Shout out To Darvarsh for his helpful video!
