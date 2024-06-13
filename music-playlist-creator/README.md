@@ -2,7 +2,7 @@
 
 Submitted by: **Ahmed Hamouda**
 
-Estimated time spent: **16** hours spent in total
+Estimated time spet: **16** hours spent in total
 
 Deployed Application (optional): [Music Playlist Explorer Deployed Site](ADD_LINK_HERE)
 
